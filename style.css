@@ -283,3 +283,66 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+
+@media only screen and (max-width: 560px) {
+
+    .header{
+        padding: 0 2rem;
+    }
+
+    .header img{
+        max-width: 75%
+    }
+
+    .header i{
+        font-size: 2.5rem;
+    }
+
+    .hero h1{
+        margin-top: 100px;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .courseInfo{
+        padding: 2rem 1rem;
+    }
+
+    .bookIcon img{
+        width: 100px;
+    }
+
+    .bookIcon h3{
+        font-size: 1.3rem;
+    }
+
+    button{
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 35px;
+    }
+
+    .introductionHeader img{
+        width: 80%;
+        margin-left: -2rem;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+
+    .contactRow1{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .iconWrapper{
+        width: 280px;
+    }
+}
