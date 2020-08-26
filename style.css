@@ -227,3 +227,35 @@ button{
     background-color: #ffffff;
     text-align: center;
 }
+
+/*****CONTACT*****/
+
+.contact{
+    width: 100%;
+    background-color: #5c8ca1;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.contactRow2{
+    text-align: center;
+}
+
+.mapp{
+    background-image: url('./images/map.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 3rem auto 0 auto;
+    height: 300px;
+    width: 570px;
+}
+
+/****FOOTER****/
+
+.footer{
+    height: 100px;
+    width: 100%;
+}
