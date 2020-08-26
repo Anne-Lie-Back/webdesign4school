@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1140px) {
+
+    .hero{
+        background-image: url('./images/hero.desktop.jpg')
+    }
+
+    .contentWrapper{
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    /****CONTENT****/
+
+    .sidePad{
+        display: none;
+    }
+
+    .sideMob{
+        display: none;
+    }
+
+    .sideDesktop{
+        display:flex;
+    }
+
+    .introductionText{
+        padding: 5rem 2rem 5rem 5rem;
+    }
+
+    .gridWrapper{
+        height: 680px;
+        grid-template-rows: 300px 380px;
+        grid-template-columns: 380px;
+    }
+
+}
