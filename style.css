@@ -100,7 +100,7 @@ button{
     background-color: #5c8ca1;
 }
 
-.hiddenMenu{
+.navigation p{
     display: none;
 }
 
@@ -123,6 +123,14 @@ button{
 .contentWrapper{
     width: 100%;
     flex-direction: column;
+}
+
+.sidePad{
+    display: none;
+}
+
+.sideDesktop{
+    display: none;
 }
 
 .introduction{
@@ -193,7 +201,6 @@ button{
 
 .innerCourseInfo h3{
     padding: 0 0 1.2rem 2rem;
-    
 }
 
 .shadow{
@@ -244,7 +251,7 @@ button{
     text-align: center;
 }
 
-.mapp{
+.map{
     background-image: url('./images/map.jpg');
     background-size: cover;
     background-position: center;
