@@ -13,7 +13,7 @@
     #burger{
         display: none;
     }
-    
+
     header div{
         justify-content: flex-start;
     }
@@ -90,8 +90,17 @@
         align-items: center;
     }
 
+    .contactRow1{
+        width: 290px;
+    }
+
+    .contactRow2{
+        width: 290px;
+        text-align: center;
+    }
+    
     .map{
-        width: 315px;
+        width: 290px;
         height: 240px;
         margin: 0;
     }

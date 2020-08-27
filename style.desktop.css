@@ -3,7 +3,7 @@
     header{
         justify-content: center;
     }
-    
+
     nav div{
         justify-content: space-between;
     }
@@ -39,6 +39,18 @@
         height: 680px;
         grid-template-rows: 300px 380px;
         grid-template-columns: 380px;
+    }
+
+    .contactRow1{
+        width: 315px;
+    }
+
+    .contactRow2{
+        width: 315px;
+    }
+
+    .map{
+        width: 315px;
     }
 
     footer{
