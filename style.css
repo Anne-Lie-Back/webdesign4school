@@ -84,7 +84,7 @@ button{
 
 /****HEADER****/
 
-.header{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -94,13 +94,13 @@ button{
     padding: 0 50px;
 }
 
-.navigation{
+nav{
     width: 100%;
     height: 20px;
     background-color: #5c8ca1;
 }
 
-.navigation p{
+nav p{
     display: none;
 }
 
@@ -120,7 +120,7 @@ button{
     margin-top: 180px;
 }
 
-.contentWrapper{
+main{
     width: 100%;
     flex-direction: column;
 }
@@ -262,7 +262,7 @@ button{
 
 /****FOOTER****/
 
-.footer{
+footer{
     height: 175px;
     width: 100%;
     display: flex;
@@ -284,17 +284,20 @@ button{
     align-items: center;
 }
 
+/***XS SCREEN***/
+
 @media only screen and (max-width: 560px) {
 
-    .header{
+    header{
         padding: 0 2rem;
+        height: 70px;
     }
 
-    .header img{
+    header img{
         max-width: 75%
     }
 
-    .header i{
+    header i{
         font-size: 2.5rem;
     }
 

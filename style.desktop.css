@@ -1,10 +1,14 @@
 @media only screen and (min-width: 1140px) {
 
+    nav div{
+        justify-content: space-between;
+    }
+
     .hero h1{
         margin-top: 180px;
     }
 
-    .contentWrapper{
+    main{
         width: 1140px;
         margin: 0 auto;
     }
@@ -36,7 +40,11 @@
     .contact{
         padding: 3rem 150px;
     }
-    .footer{
-        padding: 0 150px;
+
+    footer{
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0;
     }
 }
