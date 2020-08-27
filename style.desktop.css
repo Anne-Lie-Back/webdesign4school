@@ -59,3 +59,20 @@
         margin: 0 auto;
     }
 }
+
+@media only screen and (min-width: 1650px) {
+    .hero{
+        display:block;
+        overflow:hidden;
+        height: 850px;
+        position: relative;
+    }
+
+    .hero h1{
+        width: 100%;
+        text-align:center;
+        position:absolute;
+        top: 30px;
+    }
+}
+
