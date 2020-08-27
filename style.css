@@ -286,7 +286,7 @@ footer{
 
 /***XS SCREEN***/
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 570px) {
 
     header{
         padding: 0 2rem;
@@ -338,12 +338,18 @@ footer{
     }
 
     .contact{
+        align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 
     .contactRow1{
         text-align: center;
         margin-bottom: 3rem;
+    }
+
+    .map{
+        width: 95%;
     }
     .iconWrapper{
         width: 280px;
