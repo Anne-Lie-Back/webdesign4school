@@ -29,7 +29,7 @@
     }
 
     .hero{
-        background-image: url('./images/hero.pad.jpg');
+        background-image: url('./images/hero.desktop.jpg');
         background-size: cover;
         background-position: center;
         height: 750px;
