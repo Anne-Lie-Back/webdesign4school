@@ -17,6 +17,10 @@ h1{
     color: #e6b2cc;
     text-shadow:0 0 7px #ffffff;
     letter-spacing: 3px;
+
+    animation: fadeInHeadline ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
 
 h1 span{
@@ -24,6 +28,15 @@ h1 span{
     font-size: 40px;
     color: #5c8ca1;
 }
+  
+@keyframes fadeInHeadline { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
 
 h2{
     font-family: coquette, poppins, sans-serif;

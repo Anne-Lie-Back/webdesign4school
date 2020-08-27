@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="style.pad.css">
     <link rel="stylesheet" href="style.desktop.css">
     <link rel="stylesheet" href="style.mobXS.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/165da34037.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -36,7 +38,7 @@
             <img src="./images/sideImage.mob.jpg" class = "sideMob" alt="">
             <img src="./images/sideImage.pad.jpg" class = "sidePad" alt="">
             <img src="./images/sideImage.desktop.jpg" class = "sideDesktop" alt="">
-            <div class = "introductionText">
+            <div class = "introductionText" data-aos="fade-up">
                 <div class = "introductionHeader">
                     <h2 class = "blueText">Känn lugnet</h2>
                     <img src="./images/yellow.square.jpg" alt="">
@@ -60,11 +62,11 @@
                 </div>
             </div>
             <div class = "course1 courseBox">
-                <h4 class = "whiteText shadow"> Havet? </h4>
+                <h4 class = "whiteText shadow" data-aos="fade-up"> Havet? </h4>
                 <button>Läs mer</button>
             </div>
             <div class = "course2 courseBox">
-                <h4 class = "whiteText shadow"> Skogen? </h4>
+                <h4 class = "whiteText shadow" data-aos="fade-up"> Skogen? </h4>
                 <button>Läs mer</button>
             </div>
             <div class = "course3 courseBox">
@@ -121,5 +123,11 @@
                 <p class = "secondaryText">©2020 Flower Yoga</p>
             </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
 </body>
 </html>
