@@ -22,12 +22,12 @@
     /**** HEADER ****/
 
     header{
-        padding: 0 2rem;
+        padding: 0 1rem;
         height: 70px;
     }
 
     header img{
-        max-width: 75%
+        max-width: 75%;
     }
 
     header i{
@@ -36,13 +36,10 @@
 
     /****HERO****/
 
-    .hero{
-        height: 700px;
-    }
 
     .hero h1{
         font-size: 25px;
-        margin-top: 105px;
+        margin-top: 30px;
         text-align: center;
         padding: 2rem;
     }
