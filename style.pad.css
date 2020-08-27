@@ -4,6 +4,12 @@
         font-size: 46px;
     }
 
+    h1 span{
+        font-family: coquette, poppins, sans-serif;
+        font-size: 55px;
+        color: #5c8ca1;
+    }
+
     h3{
         font-size: 24px;
     }

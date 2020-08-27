@@ -16,7 +16,13 @@ h1{
     color: #e6b2cc;
     text-shadow:0 0 7px #ffffff;
     letter-spacing: 3px;
-} 
+}
+
+h1 span{
+    font-family: coquette, poppins, sans-serif;
+    font-size: 40px;
+    color: #5c8ca1;
+}
 
 h2{
     font-family: coquette, poppins, sans-serif;
