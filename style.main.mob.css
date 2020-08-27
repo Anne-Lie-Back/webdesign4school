@@ -54,6 +54,12 @@ i{
     font-size: 3rem;
 }
 
+i:hover{
+    cursor: pointer;
+    color: #e6b2cc;
+    transition: color 0.3s ease-in-out;
+}
+
 button{
     background-color: #f5f2a9;
     font-size: 20px;
@@ -64,6 +70,12 @@ button{
     width: 160px;
     height: 44px;
     border: 0;
+}
+
+button:hover{
+    background-color: #e6b2cc;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .blueText{
@@ -100,6 +112,10 @@ header div{
     max-width: 1140px;
     justify-content: space-between;
     align-items: center;
+}
+
+header div img{
+    cursor: pointer;
 }
 
 nav{
@@ -192,6 +208,12 @@ main{
     margin-bottom: 1rem;
 }
 
+.bookIcon:hover{
+    cursor: pointer;
+    color:#e6b2cc;
+    transition: color 0.3s ease-in-out
+}
+
 .courseInfo{
     grid-area: info;
     background-image: url('./images/flowerBox.jpg');
@@ -219,7 +241,6 @@ main{
     background-image: url('./images/sea.jpg');
     background-size: cover;
     background-position: bottom;
-
 }
 
 .course2{
@@ -235,6 +256,10 @@ main{
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem 1rem;
+}
+
+.courseBox:hover{
+    cursor: pointer;
 }
 
 .course3{

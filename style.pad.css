@@ -39,6 +39,12 @@
         display: flex;
         color: #ffffff;
         font-size: 24px;
+        cursor: pointer;
+    }
+
+    nav p:hover{
+        color: #e6b2cc;
+        transition: color 0.3s ease-in-out;
     }
 
     .hero{
