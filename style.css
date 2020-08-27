@@ -240,10 +240,17 @@ main{
 .contact{
     width: 100%;
     background-color: #5c8ca1;
-    display: flex;
-    flex-wrap: wrap;
     color: #ffffff;
     padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contactWrapper{
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -337,7 +344,7 @@ footer{
         margin-left: -2rem;
     }
 
-    .contact{
+    .contactWrapper{
         align-items: center;
         justify-content: center;
         flex-direction: column;

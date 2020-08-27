@@ -81,6 +81,10 @@
         align-items: center;
     }
 
+    .contactWrapper{
+        max-width: 1140px;
+    }
+
     .map{
         width: 315px;
         height: 240px;
