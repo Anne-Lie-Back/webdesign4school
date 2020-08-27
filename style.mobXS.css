@@ -1,6 +1,25 @@
 /***XS SCREEN***/
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 580px) {
+
+    p{
+        font-size: 13px;
+    }
+
+    button{
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 35px;
+    }
+
+    /**** HEADER ****/
 
     header{
         padding: 0 2rem;
@@ -15,6 +34,12 @@
         font-size: 2rem;
     }
 
+    /****HERO****/
+
+    .hero{
+        height: 700px;
+    }
+
     .hero h1{
         font-size: 25px;
         margin-top: 105px;
@@ -26,8 +51,24 @@
         font-size: 33px;
     }
 
+    /****CONTENT****/
+
+    .introductionHeader img{
+        width: 80%;
+        margin-left: -2rem;
+    }
+
+    .introductionText p{
+        margin-top: 1.5rem;
+    }
+
     .courseInfo{
         padding: 2rem 1rem;
+    }
+
+    .innerCourseInfo h3{
+        padding: 0 0 2rem 0;
+        text-align: center;
     }
 
     .bookIcon img{
@@ -45,23 +86,7 @@
         font-size: 14px;
     }
 
-    button{
-        width: 120px;
-        font-size: 1rem;
-    }
-
-    h2{
-        font-size: 28px;
-    }
-
-    h4{
-        font-size: 35px;
-    }
-
-    .introductionHeader img{
-        width: 80%;
-        margin-left: -2rem;
-    }
+    /**** CONTACT ****/
 
     .contactWrapper{
         align-items: center;
@@ -77,6 +102,8 @@
     .map{
         width: 95%;
     }
+
+    /**** FOOTER ****/
     .iconWrapper{
         width: 280px;
     }
