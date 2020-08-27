@@ -16,10 +16,14 @@
     }
 
     .hero h1{
-        font-size: 25px;
-        margin-top: 100px;
+        font-size: 22px;
+        margin-top: 105px;
         text-align: center;
         padding: 2rem;
+    }
+
+    .hero h1 span{
+        font-size: 35px;
     }
 
     .courseInfo{
