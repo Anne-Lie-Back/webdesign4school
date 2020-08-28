@@ -18,7 +18,7 @@ h1{
     text-shadow:0 0 7px #000000;
     letter-spacing: 3px;
 
-    animation: fadeInHeadline ease 3s; 
+    animation: fadeInHeadline ease 6s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
 }
